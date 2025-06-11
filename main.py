@@ -601,7 +601,6 @@ class EnhancedBeulahNarrativeAnalyzer:
             has_commas = any(',' in line for line in sample_lines)
             
             delimiter = '\t' if has_tabs and not has_commas else ','
-            print(f"  Using {'tab' if delimiter == '\t' else 'comma'} delimiter")
             
             # Read CSV
             df = pd.read_csv(io.StringIO(text_content), sep=delimiter)
