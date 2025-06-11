@@ -1,6 +1,46 @@
-name: base
+name: data-analysis-env
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.9.1
-  - pandas=1.2.1
+  # Python version
+  - python=3.10
+  
+  # Data manipulation and analysis
+  - pandas
+  - numpy
+  
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+  - wordcloud
+  
+  # Jupyter and widgets
+  - ipywidgets
+  - ipython
+  
+  # Natural Language Processing
+  - nltk
+  
+  # Machine Learning
+  - scikit-learn
+  
+  # Image processing
+  - pillow
+  
+  # Graph/Network analysis
+  - networkx
+  
+  # Additional useful packages
+  - jupyter
+  - notebook
+  
+  # Optional: specific versions can be added like this:
+  # - pandas>=1.5.0
+  # - numpy>=1.23.0
+  
+  # pip dependencies (if any packages are not available via conda)
+  # - pip
+  # - pip:
+  #   - some-pip-only-package
