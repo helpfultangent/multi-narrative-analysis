@@ -1,13 +1,13 @@
 {
-  "id": "no-interactive-conda-example",
-  "version": "0.0.4",
+  "id": "multi-narrative-analysis",
+  "version": "0.0.5:sha-de5aacb",
   "description": "Run an non-interactive script on TACC using docker.",
   "owner": "${apiUserId}",
   "enabled": true,
   "runtime": "SINGULARITY",
   "runtimeVersion": null,
   "runtimeOptions": ["SINGULARITY_RUN"],
-  "containerImage": "docker://ghcr.io/in-for-disaster-analytics/cookbook-conda-template:0.0.2",
+  "containerImage": "docker://ghcr.io/helpfultangent/multi-narrative-analysis:sha-de5aacb",
   "jobType": "BATCH",
   "maxJobs": -1,
   "maxJobsPerUser": -1,
@@ -59,11 +59,11 @@
     "fileInputs": [
       {
         "name": "Dataset File",
-        "description": "Contains the billing data to be processed",
+        "description": "Contains the interview or unstructured data collection to be processed",
         "inputMode": "REQUIRED",
         "autoMountLocal": true,
         "sourceUrl": null,
-        "targetPath": "billing.csv"
+        "targetPath": "interview.json"
       }
     ],
     "fileInputArrays": [],
@@ -76,9 +76,9 @@
   },
   "tags": ["portalName: ALL"],
   "notes": {
-    "label": "Python script using conda",
-    "helpUrl": "https://github.com/In-For-Disaster-Analytics/cookbook-conda-template",
-    "helpText": "Read CSV file stored on TACC storage and run a Python script that reads it, calculates the average of the values in the first column, and writes the result to a file.",
+    "label": "multi-narrative-analysis",
+    "helpUrl": "https://github.com/helpfultangent/multi-narrative-analysis",
+    "helpText": "Multi-narrative analysis application - testing with Read CSV file stored on TACC storage and run a Python script that reads it, calculates the average of the values in the first column, and writes the result to a file.",
     "hideNodeCountAndCoresPerNode": true,
     "isInteractive": false,
     "icon": "jupyter",

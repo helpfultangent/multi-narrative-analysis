@@ -1,0 +1,565 @@
+{
+  "basic_stats": {
+    "word_count": 83,
+    "sentence_count": 9,
+    "avg_sentence_length": 9.222222222222221,
+    "unique_words": 20,
+    "vocabulary_richness": 0.9090909090909091,
+    "avg_word_length": 5.590909090909091
+  },
+  "word_analysis": {
+    "word_frequency": [
+      [
+        "yeah",
+        2
+      ],
+      [
+        "jacob",
+        2
+      ],
+      [
+        "hello",
+        1
+      ],
+      [
+        "hearing",
+        1
+      ],
+      [
+        "suzanne",
+        1
+      ],
+      [
+        "pierce",
+        1
+      ],
+      [
+        "napacheck",
+        1
+      ],
+      [
+        "interview",
+        1
+      ],
+      [
+        "city",
+        1
+      ],
+      [
+        "manager",
+        1
+      ],
+      [
+        "mayor",
+        1
+      ],
+      [
+        "title",
+        1
+      ],
+      [
+        "july",
+        1
+      ],
+      [
+        "31st",
+        1
+      ],
+      [
+        "think",
+        1
+      ],
+      [
+        "landed",
+        1
+      ],
+      [
+        "early",
+        1
+      ],
+      [
+        "morning",
+        1
+      ],
+      [
+        "nine",
+        1
+      ],
+      [
+        "moment",
+        1
+      ]
+    ],
+    "top_words": [
+      [
+        "yeah",
+        2
+      ],
+      [
+        "jacob",
+        2
+      ],
+      [
+        "hello",
+        1
+      ],
+      [
+        "hearing",
+        1
+      ],
+      [
+        "suzanne",
+        1
+      ],
+      [
+        "pierce",
+        1
+      ],
+      [
+        "napacheck",
+        1
+      ],
+      [
+        "interview",
+        1
+      ],
+      [
+        "city",
+        1
+      ],
+      [
+        "manager",
+        1
+      ],
+      [
+        "mayor",
+        1
+      ],
+      [
+        "title",
+        1
+      ],
+      [
+        "july",
+        1
+      ],
+      [
+        "31st",
+        1
+      ],
+      [
+        "think",
+        1
+      ],
+      [
+        "landed",
+        1
+      ],
+      [
+        "early",
+        1
+      ],
+      [
+        "morning",
+        1
+      ],
+      [
+        "nine",
+        1
+      ],
+      [
+        "moment",
+        1
+      ]
+    ]
+  },
+  "sentiment": {
+    "overall": {
+      "neg": 0.0,
+      "neu": 0.917,
+      "pos": 0.083,
+      "compound": 0.6626
+    },
+    "progression": [
+      0.0,
+      0.296,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.296
+    ],
+    "statistics": {
+      "mean": 0.06577777777777777,
+      "std": 0.12305895405389851,
+      "min": 0.0,
+      "max": 0.296
+    },
+    "emotional_arc": "Fall-Rise (Man in a Hole)"
+  },
+  "themes": {
+    "places": 1
+  },
+  "entities": {
+    "PERSON": [
+      [
+        "Suzanne Pierce",
+        1
+      ],
+      [
+        "Jacob",
+        1
+      ]
+    ],
+    "GPE": [
+      [
+        "New Napacheck",
+        1
+      ]
+    ],
+    "ORG": [
+      [
+        "Jacob",
+        1
+      ]
+    ],
+    "DATE": [
+      [
+        "July 31st",
+        1
+      ]
+    ],
+    "TIME": [
+      [
+        "early morning",
+        1
+      ],
+      [
+        "about nine o'clock",
+        1
+      ]
+    ]
+  },
+  "topics": [],
+  "summary": {
+    "description": "A 83-word narrative with 9 sentences, focusing primarily on places themes.",
+    "key_insights": [
+      "Highly diverse vocabulary usage",
+      "Strongly positive overall sentiment",
+      "Follows a Fall-Rise (Man in a Hole) emotional pattern",
+      "Major themes: places",
+      "Key characters: it, We, I",
+      "Contains 2 causal relationships"
+    ]
+  },
+  "events": {
+    "events": {
+      "events": [
+        {
+          "sentence": "Oh yeah, it's hearing me.",
+          "action": "hear",
+          "subject": "it",
+          "object": "me",
+          "location": "unknown",
+          "time": "unknown",
+          "position": 8
+        },
+        {
+          "sentence": "We'll ask him.",
+          "action": "ask",
+          "subject": "We",
+          "object": "him",
+          "location": "unknown",
+          "time": "unknown",
+          "position": 47
+        },
+        {
+          "sentence": "It is July 31st, I think, and we've just landed and it's early morning.",
+          "action": "think",
+          "subject": "I",
+          "object": null,
+          "location": "unknown",
+          "time": "July 31st",
+          "position": 56
+        },
+        {
+          "sentence": "It is July 31st, I think, and we've just landed and it's early morning.",
+          "action": "land",
+          "subject": "we",
+          "object": null,
+          "location": "unknown",
+          "time": "July 31st",
+          "position": 62
+        }
+      ],
+      "count": 4
+    },
+    "timeline": {
+      "timeline": [
+        {
+          "sentence": "Oh yeah, it's hearing me.",
+          "action": "hear",
+          "subject": "it",
+          "object": "me",
+          "location": "unknown",
+          "time": "unknown",
+          "position": 8
+        },
+        {
+          "sentence": "We'll ask him.",
+          "action": "ask",
+          "subject": "We",
+          "object": "him",
+          "location": "unknown",
+          "time": "unknown",
+          "position": 47
+        },
+        {
+          "sentence": "It is July 31st, I think, and we've just landed and it's early morning.",
+          "action": "think",
+          "subject": "I",
+          "object": null,
+          "location": "unknown",
+          "time": "July 31st",
+          "position": 56
+        },
+        {
+          "sentence": "It is July 31st, I think, and we've just landed and it's early morning.",
+          "action": "land",
+          "subject": "we",
+          "object": null,
+          "location": "unknown",
+          "time": "July 31st",
+          "position": 62
+        }
+      ],
+      "actors": {
+        "it": {
+          "mentions": 1,
+          "actions": [
+            "hear"
+          ],
+          "relationships": {
+            "me": [
+              "hear"
+            ]
+          }
+        },
+        "We": {
+          "mentions": 1,
+          "actions": [
+            "ask"
+          ],
+          "relationships": {
+            "him": [
+              "ask"
+            ]
+          }
+        },
+        "I": {
+          "mentions": 1,
+          "actions": [
+            "think"
+          ],
+          "relationships": {}
+        },
+        "we": {
+          "mentions": 1,
+          "actions": [
+            "land"
+          ],
+          "relationships": {}
+        }
+      },
+      "locations": {}
+    },
+    "plotline": {
+      "causal_relations": [
+        {
+          "cause": "It is July 31st, I think, and we've just landed and it's early morning.",
+          "effect": "It's about nine o'clock or so.",
+          "marker": "so"
+        },
+        {
+          "cause": "It's about nine o'clock or so.",
+          "effect": "Yeah, so just a moment.",
+          "marker": "so"
+        }
+      ],
+      "action_chains": [],
+      "main_actors": [
+        "it",
+        "We",
+        "I",
+        "we"
+      ],
+      "key_locations": []
+    },
+    "storyline": {
+      "perspectives": [],
+      "narrative_structure": {
+        "exposition": [
+          {
+            "sentence": "Oh yeah, it's hearing me.",
+            "action": "hear",
+            "subject": "it",
+            "object": "me",
+            "location": "unknown",
+            "time": "unknown",
+            "position": 8
+          }
+        ],
+        "rising_action": [
+          {
+            "sentence": "We'll ask him.",
+            "action": "ask",
+            "subject": "We",
+            "object": "him",
+            "location": "unknown",
+            "time": "unknown",
+            "position": 47
+          }
+        ],
+        "climax": [
+          {
+            "sentence": "Oh yeah, it's hearing me.",
+            "action": "hear",
+            "subject": "it",
+            "object": "me",
+            "location": "unknown",
+            "time": "unknown",
+            "position": 8
+          },
+          {
+            "sentence": "We'll ask him.",
+            "action": "ask",
+            "subject": "We",
+            "object": "him",
+            "location": "unknown",
+            "time": "unknown",
+            "position": 47
+          },
+          {
+            "sentence": "It is July 31st, I think, and we've just landed and it's early morning.",
+            "action": "think",
+            "subject": "I",
+            "object": null,
+            "location": "unknown",
+            "time": "July 31st",
+            "position": 56
+          },
+          {
+            "sentence": "It is July 31st, I think, and we've just landed and it's early morning.",
+            "action": "land",
+            "subject": "we",
+            "object": null,
+            "location": "unknown",
+            "time": "July 31st",
+            "position": 62
+          }
+        ],
+        "falling_action": [
+          {
+            "sentence": "It is July 31st, I think, and we've just landed and it's early morning.",
+            "action": "think",
+            "subject": "I",
+            "object": null,
+            "location": "unknown",
+            "time": "July 31st",
+            "position": 56
+          }
+        ],
+        "resolution": [
+          {
+            "sentence": "It is July 31st, I think, and we've just landed and it's early morning.",
+            "action": "land",
+            "subject": "we",
+            "object": null,
+            "location": "unknown",
+            "time": "July 31st",
+            "position": 62
+          }
+        ]
+      },
+      "themes": [
+        "it",
+        "we",
+        "me",
+        "this",
+        "suzanne pierce",
+        "new napacheck",
+        "jacob",
+        "who",
+        "the city manager",
+        "he"
+      ]
+    }
+  },
+  "network": {
+    "nodes": [
+      [
+        0,
+        {
+          "label": "Suzanne Pierce",
+          "type": "PERSON"
+        }
+      ],
+      [
+        1,
+        {
+          "label": "Jacob",
+          "type": "PERSON"
+        }
+      ],
+      [
+        2,
+        {
+          "label": "New Napacheck",
+          "type": "GPE"
+        }
+      ],
+      [
+        3,
+        {
+          "label": "July 31st",
+          "type": "DATE"
+        }
+      ],
+      [
+        4,
+        {
+          "label": "early morning",
+          "type": "TIME"
+        }
+      ],
+      [
+        5,
+        {
+          "label": "about nine o'clock",
+          "type": "TIME"
+        }
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        2,
+        {
+          "weight": 1
+        }
+      ],
+      [
+        3,
+        4,
+        {
+          "weight": 1
+        }
+      ]
+    ],
+    "node_count": 6,
+    "edge_count": 2
+  },
+  "problem_formulations": {}
+}

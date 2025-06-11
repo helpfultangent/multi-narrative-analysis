@@ -2,4 +2,4 @@
 set -xe
 
 cd ${_tapisExecSystemInputDir}
-python /code/main.py billing.csv ${_tapisExecSystemOutputDir}/output.txt
+python /code/main.py interview.json  --output-dir ${_tapisExecSystemOutputDir}/
